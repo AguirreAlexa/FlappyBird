@@ -10,7 +10,7 @@
 }
 
 .sky{
-    background-image: url("./img/fb-game-background.png");
+    background-image: url("../img/fb-game-background.png");
     background-size: contain;
     width: 100%;
     height: 470px;
@@ -19,7 +19,7 @@
 }
 
 .ground{
-    background-image: url("./img/ground.png");
+    background-image: url("../img/ground.png");
     width: 100%;
     height: 150px;
     position: absolute;
@@ -29,7 +29,7 @@
 }
 
 .bird{
-    background-image: url("./img/flappy-bird.png");
+    background-image: url("../img/flappy-bird.png");
     background-size: cover;
     position: absolute;
     width: 50px;
@@ -37,14 +37,14 @@
 }
 
 .obstacle{
-    background-image: url("./img/flappybird-pipe.png");
+    background-image: url("../img/flappybird-pipe.png");
     height:  300px;
     width: 60px;
     position: absolute;
 }
 
 .topObstacle{
-    background-image: url("./img/flappybird-pipe.png");
+    background-image: url("../img/flappybird-pipe.png");
     transform: rotate(180deg);
     height:  300px;
     width: 60px;
@@ -52,7 +52,7 @@
 }
 
 .gameOver{
-    background-image: url("./img/Daco_2680778.png");
+    background-image: url("../img/Daco_2680778.png");
     background-size: contain;
     width: 350px;
     height: 100px;
